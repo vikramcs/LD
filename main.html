@@ -272,6 +272,8 @@ Stay with me always, my love...💟`;
 
         // Music Control
         const audio = new Audio('music/kitna-kuch-kehna.mp3');
+        audio.preload = "auto";
+    audio.volume = 0.8;
         const musicBtn = document.querySelector('.music-player');
         let isPlaying = false;
         
